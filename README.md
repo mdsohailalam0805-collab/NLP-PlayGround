@@ -5,6 +5,7 @@ I am learning NLP step by step through simple notes and hands-on projects.
 
 ## Topics
 
+* NLP introduction
 * Text Preprocessing
 * Tokenization
 * Stopwords Removal
