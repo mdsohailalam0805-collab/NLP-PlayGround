@@ -7,7 +7,7 @@ Feature Extraction is the process of converting text into numerical values that 
 Computers cannot work directly with text, so we convert words into numbers.
 
 ## Why do we use Feature Extraction?
-
+<!-- key points :- -->
 * Convert text into numbers
 * Prepare data for machine learning models
 * Improve text classification and prediction tasks
