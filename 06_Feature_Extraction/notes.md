@@ -1,9 +1,7 @@
 # Feature Extraction
 
 ## What is Feature Extraction?
-
 Feature Extraction is the process of converting text into numerical values that a machine learning model can understand.
-
 Computers cannot work directly with text, so we convert words into numbers.
 
 ## Why do we use Feature Extraction?
@@ -15,7 +13,6 @@ Computers cannot work directly with text, so we convert words into numbers.
 ## Common Feature Extraction Methods
 
 ### One-Hot Encoding
-
 One-Hot Encoding represents each word as a binary vector (0 or 1).
 
 **Example**
@@ -34,22 +31,19 @@ Representation:
 | love | 0 | 1    | 0   |
 | NLP  | 0 | 0    | 1   |
 
-**Advantages**
 
+**Advantages**
 * Simple and easy to understand
 * Works well for small vocabularies
 
 **Disadvantages**
-
 * Creates very large vectors
 * Does not capture word meaning or context
 
 ### Bag of Words (BoW)
-
 Bag of Words counts how many times each word appears in a sentence.
 
 **Example**
-
 Sentences:
 
 ```text
@@ -65,17 +59,14 @@ BoW representation:
 | I love Python | 1 | 1    | 0   | 1      |
 
 **Advantages**
-
 * Simple and fast
 * Good for basic text classification
 
 **Disadvantages**
-
 * Ignores word order
 * Does not understand context
 
 ### TF-IDF
-
 TF-IDF (Term Frequency–Inverse Document Frequency) gives higher weight to important words and lower weight to common words.
 
 **Example**
@@ -97,18 +88,15 @@ TF-IDF representation (example values):
 | NLP is amazing | 0.00 | 0.00 | 0.47 | 0.00   | 0.62 | 0.62    |
 
 **Explanation**
-
 * **I** and **love** appear in multiple sentences, so they get lower weights.
 * **Python** appears in only one sentence, so it gets a higher weight.
 * **amazing** appears in only one sentence, so it also gets a higher weight.
 
 **Advantages**
-
 * Highlights important words
 * Reduces the effect of common words
 
 **Disadvantages**
-
 * Ignores word order
 * More complex than Bag of Words
 
